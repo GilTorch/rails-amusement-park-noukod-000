@@ -43,8 +43,4 @@ class UsersController < ApplicationController
   # end
 
 
-<<<<<<< HEAD
-
-=======
->>>>>>> e103fd32bd60cc1c57687c39a215d2c68b6b3837
 end
