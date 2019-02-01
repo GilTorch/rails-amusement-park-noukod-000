@@ -9,10 +9,7 @@ class AttractionsController < ApplicationController
 
   def show
     @attraction=Attraction.find(params[:id])
-<<<<<<< HEAD
     @ride=Ride.create(attraction_id:@attraction.id,user_id:current_user.id)
-=======
->>>>>>> e103fd32bd60cc1c57687c39a215d2c68b6b3837
   end
 
   def edit
