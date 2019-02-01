@@ -3,7 +3,7 @@ class RidesController < ApplicationController
   end
 
   def create
-    puts "I am here!!"
+    flash[:message]="Thanks for riding the Ferris Wheel!"
     @ride=Ride.find(params[:id])
     @ride.take_ride
     redirect_to user_path(@ride.user)
