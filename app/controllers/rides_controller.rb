@@ -5,7 +5,7 @@ class RidesController < ApplicationController
   def create
 
     @ride=Ride.find(params[:id])
-    flash[:message]="Thanks for riding the #{@ride.attraction.name}"
+    flash[:message]="Thanks for riding the #{@ride.attraction.name}!"
 
     @ride.take_ride
     redirect_to user_path(@ride.user)
