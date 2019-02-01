@@ -1,10 +1,6 @@
 class UsersController < ApplicationController
-<<<<<<< HEAD
-=======
   # before_action :require_login
   # skip_before_action :require_login,only:[:create]
-
->>>>>>> e103fd32bd60cc1c57687c39a215d2c68b6b3837
   def index
   end
 
