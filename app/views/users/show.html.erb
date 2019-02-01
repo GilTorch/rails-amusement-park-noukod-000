@@ -1,3 +1,6 @@
+<% if !flash[:message].nil? %>
+  <p><%= flash[:message] %></p>
+<% end %>
 <div class="center">
   <div class="info">
     <% if @user.admin %>
