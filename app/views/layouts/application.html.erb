@@ -18,6 +18,7 @@
             <span class="icon-bar"></span>
           </button>
         <a class="navbar-brand" href="<%= root_url %>"/>Home</a>
+<<<<<<< HEAD
         <% if current_user.nil? %>
           <a class="navbar-brand" href="/users/new">Sign Up</a>
           <a class="navbar-brand" href="/signin">Login</a>
@@ -25,6 +26,10 @@
           <a class="navbar-brand" href="<%= user_path(current_user) %>"><%=current_user.name%>'s Profile</a>
           <a class="navbar-brand" href="/logout">Log Out</a>
         <% end %>
+=======
+        <a class="navbar-brand" href="/users/new">Sign Up</a>
+        <a class="navbar-brand" href="/signin">Login</a>
+>>>>>>> e103fd32bd60cc1c57687c39a215d2c68b6b3837
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
